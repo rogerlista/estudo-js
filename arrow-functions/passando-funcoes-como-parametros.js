@@ -22,5 +22,10 @@ console.log(double(9)) // 18
 // O que essa função esta fazendo
 const nada = () => {} // não faz nada, não existe uma operação nela.
 
-// Agora retorna um objeto
-const objeto = () => ({}) // retorna um objeto.
+// Retornando algo
+const objeto = () => ({}) // retorna um objeto literal.
+
+// Ou também assim
+const objeto2 = () => {
+  return {}
+} // retorna um objeto literal.
