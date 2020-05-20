@@ -26,6 +26,7 @@ console.log(formatUser('Juca', 'juca-bala.jpg'));
 const furColor2 = 'brow';
 const legs2 = 4;
 
+// propriedades
 const mouse2 = {
   furColor2,
   legs2,
@@ -37,6 +38,7 @@ const mouse2 = {
 
 console.log(mouse2.describe());
 
+// parâmetros
 const formatUser2 = (name, avatar) => ({
   name,
   avatar,
